@@ -5,11 +5,14 @@ import TodoItem from './TodoItem';
 import { useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion'
 
+//Bringing the states from the store using connect
 const mapStateToProps = (state) => {
     return {
         todos: state
     }
 }
+
+//Bringing the methods from the store using connect
 
 const mapDispatchToProps = (dispatch) => {
     return {

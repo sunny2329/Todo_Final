@@ -182,6 +182,8 @@ body {
   border-radius: 20px;
 }
 
+/* Making the page responsive  */
+
 @media Screen and (max-width: 640px) {
   .displaytodos {
     overflow: hidden;
